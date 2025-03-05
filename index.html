@@ -5,10 +5,20 @@
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="/assets/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+	<link rel="shortcut icon" href="/assets/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+	<meta name="apple-mobile-web-app-title" content="Beeldpatroon" />
+	<link rel="manifest" href="/site.webmanifest" />
+
 	<link rel="stylesheet" href="./style.css"">
 
 	<title>Beeldpatroon</title>
-	<meta name="keywords" content="coaching, therapie, therapeut, coach, tekenen, tekencoach, tekentherapie, kinderen, kind, kindertherapie, therapeutisch tekenen" />
+
+	<meta name="keywords"
+		content="coaching, therapie, therapeut, coach, tekenen, tekencoach, tekentherapie, kinderen, kind, kindertherapie, therapeutisch tekenen" />
 	<meta name="description" content="Coaching en therapie voor kinderen en volwassenen." />
 	<meta property="og:image" content="https://developer.mozilla.org/mdn-social-share.png" />
 	<meta property="og:description" content="Coaching en therapie voor kinderen en volwassenen." />
@@ -18,10 +28,88 @@
 </head>
 
 <body class="home">
-	<div class="center">
-		<img src="./Beeldpatroon_logo.svg" alt="beeldpatroon logo"/>
+	<div class="center" style="height: 70vh">
+		<object type="image/svg+xml" data="./Beeldpatroon_logo_animated.svg"></object>
 	</div>
 
+	<div class="container is-fullhd wrapper">
+		<section class="section">
+			<div class="columns">
+				<div class="column is-three-fifths content">
+					<h2>Wie is Beeldpatroon?</h2>
+					<p class="block">Lo iste summarios pan. Es uno vices etiam, pro e gymnasios supervivite, prime giuseppe del
+						le. Pro lo medical svedese laborava, per un inter addresses philologos. Al regula paternoster per. In
+						que tamben extrahite, uso effortio supervivite al. <a href="#">Disuso millennios</a> linguistic al uso,
+						su capital
+						responder pro, membros introductori o uso.</p>
+					<p class="block">Lo iste summarios pan. Es uno vices etiam, pro e gymnasios supervivite, prime giuseppe del
+						le. Pro lo medical svedese laborava, per un inter addresses <a href="#">philologos</a>. Al regula
+						paternoster per. In
+						que tamben extrahite, uso effortio supervivite al. Disuso millennios linguistic al uso, su capital
+						responder pro, membros introductori o uso.</p>
+				</div>
+				<div class="column form-contact">
+					<form action="https://formsubmit.co/beeldpatroon@gmail.com" class="contact" method="POST">
+						<div class="field">
+							<label class="label required">Naam</label>
+							<div class="control">
+								<input class="input" type="text" name="naam" required aria-required="true" placeholder="Uw naam">
+							</div>
+						</div>
+
+						<div class="field">
+							<label class="label required">Email</label>
+							<div class="control">
+								<input class="input" type="email" name="email" required aria-required="true" placeholder="Email adres" value="">
+							</div>
+						</div>
+
+						<div class="field">
+							<label class="label">Telefoonnummer</label>
+							<div class="control">
+								<input class="input" type="tel" name="telefoon" placeholder="Telefoonnummer" value="">
+							</div>
+						</div>
+
+						<div class="field">
+							<label class="label required">Bericht</label>
+							<div class="control">
+								<textarea class="textarea" name="bericht" required aria-required="true" placeholder="Plaats hier uw bericht"></textarea>
+							</div>
+						</div>
+
+						<div class="field">
+							<div class="control">
+								<button class="button is-link" type="submit">Verstuur</button>
+							</div>
+						</div>
+
+						<input type="hidden" name="_replyto">
+						<input type="hidden" name="_next" value="https://beeldpatroon.nl/">
+						<input type="hidden" name="_autoresponse" value="Bedankt voor uw bericht. Beeldpatroon neemt spoedig contact met u op.">
+						<input type="hidden" name="_subject" value="Nieuwe bericht!">
+						<input type="text" name="_honey" style="display:none">
+					</form>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<footer class="footer">
+		<div class="content has-text-centered">
+			<p>
+				<strong>Beeldpatroon</strong> by Dani&euml;la.
+			</p>
+			<p>
+				<strong>KvK</strong> 1234234
+			</p>
+			<p>
+				<strong>IBAN</strong> NL21 RABO 0123324234
+			</p>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/cash-dom/dist/cash.min.js" defer></script>
 </body>
 
 </html>
